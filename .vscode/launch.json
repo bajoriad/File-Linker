@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(lldb) Launch",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/linker",
+      "args": [
+        "combination_main.obj",
+        "combination.obj",
+        "outputfile.ms"
+      ],
+      "stdio": null
+    },
+    // {
+    //   "name": "C/C++ Runner: Debug Session",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "args": [
+    //     ""
+    //   ],
+    //   "stopAtEntry": true,
+    //   "cwd": "/Users/divyanga/Desktop/EECS370Project2l/starter_2l",
+    //   "environment": [],
+    //   "program": "/Users/divyanga/Desktop/EECS370Project2l/starter_2l/build/Debug/outDebug",
+    //   "internalConsoleOptions": "openOnSessionStart",
+    //   "MIMode": "lldb",
+    //   "externalConsole": true
+    // }
+  ]
+}
